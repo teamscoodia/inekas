@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Online Photo Printing 
 
-## Getting Started
+This project is a "Next.js + Tailwind CSS" web application developed as a "test task" for a client requirement.  
+It showcases the core features of an "online photo printing platform", allowing users to upload photos, choose print sizes, see prices, and simulate placing an order.
 
-First, run the development server:
+The project is designed to demonstrate full-stack readiness (frontend logic, UI, and scalable structure) — but runs completely on the client side for testing and presentation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Objective
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To build a simple, responsive, and dynamic web page where users can:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Upload up to "5 photos" directly from their device.
+2. Instantly see photo "thumbnails" on the same page.
+3. Choose "print sizes" (4×6, 5×7, 8×10) for each photo.
+4. See "automatic price calculations" for each selection.
+5. Click a “Pay Now” button that simulates checkout (no real payments).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+- Framework: Next.js 14+ (React, App Router)
+- Styling: Tailwind CSS
+- Language: TypeScript
+- Build tool: Vite (Next built-in)
+- Hosting (recommended): Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## project run command 
+- npm i (install node module)
+- npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
